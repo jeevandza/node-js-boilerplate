@@ -1,0 +1,7 @@
+{
+	"watch": ["src", ".env"],
+	"ignore": ["src/**/*.test.ts", "dist/", "node_modules/"],
+	"ext": "ts,mjs,js,json",
+	"exec": "node ./dist/app.cjs",
+	"legacyWatch": true
+}
